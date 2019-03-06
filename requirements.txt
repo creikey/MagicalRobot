@@ -1,4 +1,4 @@
-pyfrc~=2019.0.7
-robotpy-ctre==2019.1.2
-wpilib==2019.1.2
-coloredlogs
+pyfrc==2019.1.0
+robotpy-ctre==2019.3.1
+wpilib==2019.2.1
+coloredlogs==10.0
