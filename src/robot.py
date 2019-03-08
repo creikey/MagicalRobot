@@ -9,6 +9,7 @@ class Robot(magicbot.MagicRobot):
 
     def createObjects(self):
         """Creates component objects assosciated with hardware, run on robot init"""
+        # initialize colored logging
         field_styles = coloredlogs.DEFAULT_FIELD_STYLES
         field_styles['filename'] = {'color': 'cyan'}
         coloredlogs.install(level='DEBUG',
@@ -23,6 +24,6 @@ class Robot(magicbot.MagicRobot):
         pass
 
 
-# Run magicbot when executed as a script
+# run magicbot when executed as a script
 if __name__ == '__main__':
     wpilib.run(Robot)
